@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/opcion1"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="opcion1"/>
+
+    <item
+        android:id="@+id/opcion2"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="opcion2"/>
+
+    <item
+        android:id="@+id/opcion3"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:title="opcion3"/>
+
+    <item
+        android:id="@+id/opcion4"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        android:title="opcion4"/>
+</menu>
